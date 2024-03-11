@@ -3,7 +3,7 @@
   hosts: [AWS_Lab_Server]
   connection: local
   become: true
-  remote_user: root
+  remote_user: ubuntu
   roles:
     - config
     - docker
