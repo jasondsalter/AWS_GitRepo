@@ -1,6 +1,6 @@
 ---
 - name: Setup Docker on Ubuntu Server 22.04
-  hosts: All
+  hosts: [AWS_Lab_Server]
   become: true
   remote_user: root
   roles:
