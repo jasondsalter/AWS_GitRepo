@@ -1,2 +1,2 @@
 [AWS_Lab_Server]
-localhost ansible_connection=local   #Ubuntu Lab Server
+127.0.0.1 ansible_connection=local    #Ubuntu Lab Server
