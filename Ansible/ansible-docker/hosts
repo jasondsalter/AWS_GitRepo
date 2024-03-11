@@ -1,2 +1,2 @@
 [AWS_Lab_Server]
-3.9.179.240 ansible_user=root   #Ubuntu Lab Server
+localhost ansible_connection=local   #Ubuntu Lab Server
