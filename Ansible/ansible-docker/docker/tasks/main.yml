@@ -19,12 +19,12 @@
     state: present
     update_cache: true
 
-#- name: Setup docker user
-#  ansible.builtin.user:
-#    name: docker
-#    groups: "docker"
-#    append: true
-#    sudo_user: yes
+- name: Setup docker user
+  ansible.builtin.user:
+    name: docker
+    groups: "docker"
+    append: true
+    sudo_user: yes
 
 - name: Install Docker module for Python
   ansible.builtin.pip:
