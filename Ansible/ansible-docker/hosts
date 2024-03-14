@@ -1,2 +1,2 @@
 [example-server]
-10.0.0.23 ansible_user=ubuntu   #Ubuntu Lab Server
+127.0.0.1 ansible_connection=local   #Ubuntu Lab Server
